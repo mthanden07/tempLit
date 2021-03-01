@@ -4,20 +4,20 @@ const petsData =[
 name: "Purrsloud",
 species: "Cat",
 favFoods: ["uphuthu na masi", "umbila","coke" ,"<strong>any</strong> food"],
-birthYear: 2021,
+birthYear: 2000,
 photo: "/home/codex/Desktop/tempLit/Purrsloud.jpg"
 },
 {
 name: "Barksalot",
 species: "Dog",
-birthYear: 2018,
+birthYear: 2010,
 photo:  "/home/codex/Desktop/tempLit/Barksalot.jpeg"
 },
 {
 name: "Meowsalot",
 species: "Cat",
 favFoods: ["tuna","catnip","celery","ace - porridge", "rats"],
-birthYear: 2016,
+birthYear: 1992,
 photo:  "/home/codex/Desktop/tempLit/Meowsalot.jpg"
 }
 ];
@@ -49,7 +49,7 @@ return  ` <h4>Favourite Foods</h4>
    }
 
 document.getElementById("app").innerHTML = `
-<h1 class = "app-title">Pets (${petsData.length} results)</h1>
+<h1 class = "app-title">Mabutho's Pets (${petsData.length} results)</h1>
 ${petsData.map(petTemplate).join('')}
 <p class="footer">These ${petsData.length} pets were added recently.Check back soon updates</p>
 `
